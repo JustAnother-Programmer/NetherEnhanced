@@ -1,5 +1,6 @@
 package com.overfluxstudios.netherenhanced;
 
+import com.overfluxstudios.netherenhanced.block.ModBlocks;
 import com.overfluxstudios.netherenhanced.item.ModItems;
 import com.overfluxstudios.netherenhanced.util.Registration;
 import net.minecraft.block.Block;
@@ -31,6 +32,7 @@ public class NetherEnhanced
     public NetherEnhanced() {
         Registration.Register();
         ModItems.Register();
+        ModBlocks.Register();
 
         // Register the setup method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
