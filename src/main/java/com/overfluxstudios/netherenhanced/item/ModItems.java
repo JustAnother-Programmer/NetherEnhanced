@@ -3,7 +3,6 @@ package com.overfluxstudios.netherenhanced.item;
 import com.overfluxstudios.netherenhanced.NetherEnhanced;
 import com.overfluxstudios.netherenhanced.util.Registration;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 import net.minecraftforge.fml.RegistryObject;
 
 public class ModItems
