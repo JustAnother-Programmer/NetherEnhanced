@@ -1,5 +1,6 @@
 package com.overfluxstudios.netherenhanced.block;
 
+import com.overfluxstudios.netherenhanced.NetherEnhanced;
 import com.overfluxstudios.netherenhanced.util.Registration;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
@@ -29,7 +30,7 @@ public class ModBlocks
 
         RegistryObject<T> toReturn = Registration.BLOCKS.register(name, block);
         Registration.ITEMS.register(name, () -> new BlockItem(toReturn.get(),
-                new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+                new Item.Properties().group(NetherEnhanced.NETHERENHANCED_TAB)));
         return toReturn;
     }
 }
