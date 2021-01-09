@@ -11,5 +11,9 @@ public class ModItems
             Registration.ITEMS.register("copper_ingot",
                     () -> new Item(new Item.Properties().group(ItemGroup.MATERIALS)));
 
+    public static final RegistryObject<Item> COPPER_WIRE =
+            Registration.ITEMS.register("copper_wire",
+                    () -> new Item(new Item.Properties().group(ItemGroup.REDSTONE)));
+
     public static void Register() { }
 }
