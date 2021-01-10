@@ -21,7 +21,8 @@ public class ModBlocks
 
     public static final RegistryObject<Block> COPPER_ORE = Register("copper_ore",
             () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
-                    .harvestLevel(2).harvestTool(ToolType.PICKAXE)));
+                    .harvestLevel(2).harvestTool(ToolType.PICKAXE)
+                    .hardnessAndResistance(2f, 12f)));
 
     public static void Register() { }
 

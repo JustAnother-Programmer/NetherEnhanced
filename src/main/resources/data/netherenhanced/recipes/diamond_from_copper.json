@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xyx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "netherenhanced:copper_wire"
+    },
+    "y": {
+      "item": "netherenhanced:copper_block"
+    }
+  },
+  "result": {
+    "item": "minecraft:diamond"
+  }
+}

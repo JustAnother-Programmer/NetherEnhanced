@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "netherenhanced:copper_ore"
+  },
+  "result": "netherenhanced:copper_ingot",
+  "experience": 2.5,
+  "cookingtime": 140
+}
