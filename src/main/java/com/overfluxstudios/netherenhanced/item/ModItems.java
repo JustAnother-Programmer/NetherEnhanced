@@ -19,7 +19,7 @@ public class ModItems
 
     public static final RegistryObject<Item> LAVA_STEEL_SHOVEL =
             Registration.ITEMS.register("lava_steel_shovel",
-                    () -> new ShovelItem(ModItemTier.LAVA_STEEL, 1.5f, 2f,
+                    () -> new ShovelItem(ModItemTier.LAVA_STEEL, 1f, 1f,
                             new Item.Properties()
                                 .defaultMaxDamage(300)
                                 .addToolType(ToolType.SHOVEL, 3)
@@ -29,7 +29,7 @@ public class ModItems
 
     public enum ModItemTier implements IItemTier
     {
-        LAVA_STEEL(3, 300, 3.25f, 3f, 20,
+        LAVA_STEEL(3, 300, 12.5f, 3f, 20,
                 Ingredient.fromStacks(new ItemStack(ModItems.LAVA_STEEL_INGOT.get())));
 
         private final int harvestLevel;
