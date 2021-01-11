@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "netherenhanced:block/copper_ore"
+    "all": "netherenhanced:block/lava_steel_block"
   }
 }

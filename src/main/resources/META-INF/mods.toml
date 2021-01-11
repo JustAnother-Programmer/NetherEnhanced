@@ -4,7 +4,7 @@ license="All rights reserved"
 issueTrackerURL="https://github.com/OverFluxStudios/NetherEnhanced/projects/1"
 [[mods]]
 modId="netherenhanced"
-version="DEV v0.6"
+version="DEV v0.7"
 displayName="NetherEnhanced"
 logoFile="examplemod.png"
 credits="OverFlux Studios - Mod Development, @phat@ - Textures, LOLCAT Translation and Moral Support"

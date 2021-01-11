@@ -2,10 +2,10 @@
   "type": "minecraft:crafting_shapeless",
   "group": "",
   "ingredients": [
-    { "item":  "netherenhanced:copper_block" }
+    { "item":  "netherenhanced:lava_steel_block" }
   ],
   "result": {
-    "item": "netherenhanced:copper_ingot",
+    "item": "netherenhanced:lava_steel_ingot",
     "count": 9
   }
 }

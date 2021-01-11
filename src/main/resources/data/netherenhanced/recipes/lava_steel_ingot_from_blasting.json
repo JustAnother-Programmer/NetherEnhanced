@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "netherenhanced:lava_steel_ore"
+  },
+  "result": "netherenhanced:lava_steel_ingot",
+  "experience": 2.5,
+  "cookingtime": 110
+}

@@ -1,9 +1,9 @@
 {
   "type": "minecraft:smelting",
   "ingredient": {
-    "item": "netherenhanced:copper_ore"
+    "item": "netherenhanced:lava_steel_ore"
   },
-  "result": "netherenhanced:copper_ingot",
+  "result": "netherenhanced:lava_steel_ingot",
   "experience": 2.5,
   "cookingtime": 140
 }

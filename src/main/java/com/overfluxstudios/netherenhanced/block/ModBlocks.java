@@ -15,11 +15,11 @@ import java.util.function.Supplier;
 
 public class ModBlocks
 {
-    public static final RegistryObject<Block> COPPER_BLOCK = Register("copper_block",
+    public static final RegistryObject<Block> LAVA_STEEL_BLOCK = Register("lava_steel_block",
             () -> new Block(AbstractBlock.Properties.create(Material.IRON)
                     .hardnessAndResistance(3f, 10f).sound(SoundType.METAL)));
 
-    public static final RegistryObject<Block> COPPER_ORE = Register("copper_ore",
+    public static final RegistryObject<Block> LAVA_STEEL_ORE = Register("lava_steel_ore",
             () -> new Block(AbstractBlock.Properties.create(Material.ROCK)
                     .harvestLevel(2).harvestTool(ToolType.PICKAXE)
                     .hardnessAndResistance(2f, 12f)));

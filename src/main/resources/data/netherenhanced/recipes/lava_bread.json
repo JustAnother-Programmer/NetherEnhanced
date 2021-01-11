@@ -7,13 +7,13 @@
   ],
   "key": {
     "x": {
-      "item": "netherenhanced:copper_wire"
+      "item": "minecraft:bread"
     },
     "y": {
-      "item": "netherenhanced:copper_block"
+      "item": "minecraft:lava_bucket"
     }
   },
   "result": {
-    "item": "minecraft:diamond"
+    "item": "netherenhanced:lava_bread"
   }
 }

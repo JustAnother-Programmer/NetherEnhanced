@@ -1,7 +1,8 @@
 {
   "itemGroup.netherEnhanced": "Nether Enhanced",
-  "item.netherenhanced.copper_ingot": "Copper Ingot",
-  "block.netherenhanced.copper_block": "Copper Block",
-  "block.netherenhanced.copper_ore": "Copper Ore",
-  "item.netherenhanced.copper_wire": "Copper Wire"
+  "item.netherenhanced.lava_steel_ingot": "Lava Steel Ingot",
+  "block.netherenhanced.lava_steel_block": "Lava Steel Block",
+  "block.netherenhanced.lava_steel_ore": "Lva Steel Ore",
+  "item.netherenhanced.lava_bread": "Lava Bread",
+  "item.lava_steel_shovel": "Lava Steel Shovel"
 }
