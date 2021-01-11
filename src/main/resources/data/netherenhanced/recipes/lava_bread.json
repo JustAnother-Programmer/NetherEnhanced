@@ -14,6 +14,7 @@
     }
   },
   "result": {
-    "item": "netherenhanced:lava_bread"
+    "item": "netherenhanced:lava_bread",
+    "count": 8
   }
 }
