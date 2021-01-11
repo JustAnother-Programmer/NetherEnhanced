@@ -17,7 +17,7 @@ public class NetherEnhanced
         @Override
         public ItemStack createIcon()
         {
-            return new ItemStack(ModItems.COPPER_WIRE.get());
+            return new ItemStack(ModItems.LAVA_STEEL_INGOT.get());
         }
     };
 
