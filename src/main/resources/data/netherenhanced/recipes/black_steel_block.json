@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "netherenhanced:black_steel_ingot"
+    }
+  },
+  "result": {
+    "item": "netherenhanced:black_steel_block"
+  }
+}

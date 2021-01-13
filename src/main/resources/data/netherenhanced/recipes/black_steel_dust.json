@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xyx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:blackstone"
+    },
+    "y": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "netherenhanced:black_steel_dust",
+    "count": 2
+  }
+}

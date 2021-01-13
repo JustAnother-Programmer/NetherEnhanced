@@ -13,6 +13,14 @@ public class ModItems
             Registration.ITEMS.register("lava_steel_ingot",
                     () -> new Item(new Item.Properties().group(NetherEnhanced.NETHERENHANCED_TAB)));
 
+    public static final RegistryObject<Item> BLACK_STEEL_INGOT =
+            Registration.ITEMS.register("black_steel_ingot",
+                    () -> new Item(new Item.Properties().group(NetherEnhanced.NETHERENHANCED_TAB)));
+
+    public static final RegistryObject<Item> BLACK_STEEL_DUST =
+            Registration.ITEMS.register("black_steel_dust",
+                    () -> new Item(new Item.Properties().group(NetherEnhanced.NETHERENHANCED_TAB)));
+
     public static final RegistryObject<Item> LAVA_BREAD =
             Registration.ITEMS.register("lava_bread",
                     () -> new LavaBread());

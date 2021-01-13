@@ -24,6 +24,11 @@ public class ModBlocks
                     .harvestLevel(2).harvestTool(ToolType.PICKAXE)
                     .hardnessAndResistance(2f, 12f)));
 
+    public static final RegistryObject<Block> BLACK_STEEL_BLOCK = Register("black_steel_block",
+            () -> new Block(AbstractBlock.Properties.create(Material.IRON)
+            .harvestLevel(3).harvestTool(ToolType.PICKAXE)
+            .hardnessAndResistance(10f, 20f)));
+
     public static void Register() { }
 
     private static <T extends Block>RegistryObject<T> Register (String name, Supplier<T> block){

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "netherenhanced:black_steel_dust"
+  },
+  "result": "netherenhanced:black_steel_ingot",
+  "experience": 3,
+  "cookingtime": 210
+}
