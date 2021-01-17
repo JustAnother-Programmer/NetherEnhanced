@@ -33,6 +33,37 @@ public class ModItems
                                 .addToolType(ToolType.SHOVEL, 3)
                                 .group(NetherEnhanced.NETHERENHANCED_TAB)));
 
+    public static final RegistryObject<Item> LAVA_STEEL_SWORD =
+            Registration.ITEMS.register("lava_steel_sword",
+                    () -> new SwordItem(ModItemTier.LAVA_STEEL, 3, 1.5f,
+                            new Item.Properties()
+                                    .defaultMaxDamage(1000)
+                                    .group(NetherEnhanced.NETHERENHANCED_TAB)));
+
+    public static final RegistryObject<Item> LAVA_STEEL_PICKAXE =
+            Registration.ITEMS.register("lava_steel_pickaxe",
+                    () -> new SwordItem(ModItemTier.LAVA_STEEL, 1, 2.5f,
+                            new Item.Properties()
+                                    .defaultMaxDamage(1000)
+                                    .addToolType(ToolType.PICKAXE, 3)
+                                    .group(NetherEnhanced.NETHERENHANCED_TAB)));
+
+    public static final RegistryObject<Item> LAVA_STEEL_HOE =
+            Registration.ITEMS.register("lava_steel_hoe",
+                    () -> new HoeItem(ModItemTier.LAVA_STEEL, 1, 2.5f,
+                            new Item.Properties()
+                                    .defaultMaxDamage(1000)
+                                    .addToolType(ToolType.HOE, 3)
+                                    .group(NetherEnhanced.NETHERENHANCED_TAB)));
+
+    public static final RegistryObject<Item> LAVA_STEEL_AXE =
+            Registration.ITEMS.register("lava_steel_axe",
+                    () -> new AxeItem(ModItemTier.LAVA_STEEL, 2.5f, 1f,
+                            new Item.Properties()
+                                    .defaultMaxDamage(1000)
+                                    .addToolType(ToolType.AXE, 3)
+                                    .group(NetherEnhanced.NETHERENHANCED_TAB)));
+
     public static void Register() { }
 
     public enum ModItemTier implements IItemTier

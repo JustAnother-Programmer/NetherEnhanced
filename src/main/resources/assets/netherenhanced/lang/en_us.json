@@ -1,11 +1,18 @@
 {
   "itemGroup.netherEnhanced": "Nether Enhanced",
+
   "block.netherenhanced.black_steel_block": "Black Steel Block",
   "block.netherenhanced.lava_steel_block": "Lava Steel Block",
   "block.netherenhanced.lava_steel_ore": "Lava Steel Ore",
+
   "item.netherenhanced.lava_bread": "Lava Bread",
-  "item.netherenhanced.lava_steel_shovel": "Lava Steel Shovel",
   "item.netherenhanced.black_steel_dust": "Black Steel Dust",
   "item.netherenhanced.black_steel_ingot": "Black Steel Ingot",
-  "item.netherenhanced.lava_steel_ingot": "Lava Steel Ingot"
+  "item.netherenhanced.lava_steel_ingot": "Lava Steel Ingot",
+
+  "item.netherenhanced.lava_steel_shovel": "Lava Steel Shovel",
+  "item.netherenhanced.lava_steel_pickaxe": "Lava Steel Pickaxe",
+  "item.netherenhanced.lava_steel_axe": "Lava Steel Axe",
+  "item.netherenhanced.lava_steel_hoe": "Lava Steel Hoe",
+  "item.netherenhanced.lava_steel_sword": "Lava Steel Sword"
 }

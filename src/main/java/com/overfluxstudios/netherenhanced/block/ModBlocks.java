@@ -17,6 +17,7 @@ public class ModBlocks
 {
     public static final RegistryObject<Block> LAVA_STEEL_BLOCK = Register("lava_steel_block",
             () -> new Block(AbstractBlock.Properties.create(Material.IRON)
+                    .harvestLevel(2).harvestTool(ToolType.PICKAXE)
                     .hardnessAndResistance(3f, 10f).sound(SoundType.METAL)));
 
     public static final RegistryObject<Block> LAVA_STEEL_ORE = Register("lava_steel_ore",
