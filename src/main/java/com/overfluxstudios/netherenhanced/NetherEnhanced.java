@@ -1,10 +1,12 @@
 package com.overfluxstudios.netherenhanced;
 
 import com.overfluxstudios.netherenhanced.block.ModBlocks;
+import com.overfluxstudios.netherenhanced.events.ModEvents;
 import com.overfluxstudios.netherenhanced.item.ModItems;
 import com.overfluxstudios.netherenhanced.util.Registration;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
+import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 
 @Mod(NetherEnhanced.MOD_ID)
@@ -25,5 +27,6 @@ public class NetherEnhanced
         Registration.Register();
         ModItems.Register();
         ModBlocks.Register();
+        MinecraftForge.EVENT_BUS.register(new ModEvents());
     }
 }

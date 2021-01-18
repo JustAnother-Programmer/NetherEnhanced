@@ -29,15 +29,17 @@ public class ModItems
             Registration.ITEMS.register("lava_steel_shovel",
                     () -> new ShovelItem(ModItemTier.LAVA_STEEL, 1f, 2.5f,
                             new Item.Properties()
-                                .defaultMaxDamage(1000)
-                                .addToolType(ToolType.SHOVEL, 3)
-                                .group(NetherEnhanced.NETHERENHANCED_TAB)));
+                                    .defaultMaxDamage(1000)
+                                    .isImmuneToFire()
+                                    .addToolType(ToolType.SHOVEL, 4)
+                                    .group(NetherEnhanced.NETHERENHANCED_TAB)));
 
     public static final RegistryObject<Item> LAVA_STEEL_SWORD =
             Registration.ITEMS.register("lava_steel_sword",
                     () -> new SwordItem(ModItemTier.LAVA_STEEL, 3, 1.5f,
                             new Item.Properties()
                                     .defaultMaxDamage(1000)
+                                    .isImmuneToFire()
                                     .group(NetherEnhanced.NETHERENHANCED_TAB)));
 
     public static final RegistryObject<Item> LAVA_STEEL_PICKAXE =
@@ -45,7 +47,8 @@ public class ModItems
                     () -> new SwordItem(ModItemTier.LAVA_STEEL, 1, 2.5f,
                             new Item.Properties()
                                     .defaultMaxDamage(1000)
-                                    .addToolType(ToolType.PICKAXE, 3)
+                                    .isImmuneToFire()
+                                    .addToolType(ToolType.PICKAXE, 4)
                                     .group(NetherEnhanced.NETHERENHANCED_TAB)));
 
     public static final RegistryObject<Item> LAVA_STEEL_HOE =
@@ -53,7 +56,8 @@ public class ModItems
                     () -> new HoeItem(ModItemTier.LAVA_STEEL, 1, 2.5f,
                             new Item.Properties()
                                     .defaultMaxDamage(1000)
-                                    .addToolType(ToolType.HOE, 3)
+                                    .isImmuneToFire()
+                                    .addToolType(ToolType.HOE, 4)
                                     .group(NetherEnhanced.NETHERENHANCED_TAB)));
 
     public static final RegistryObject<Item> LAVA_STEEL_AXE =
@@ -61,14 +65,15 @@ public class ModItems
                     () -> new AxeItem(ModItemTier.LAVA_STEEL, 2.5f, 1f,
                             new Item.Properties()
                                     .defaultMaxDamage(1000)
-                                    .addToolType(ToolType.AXE, 3)
+                                    .isImmuneToFire()
+                                    .addToolType(ToolType.AXE, 4)
                                     .group(NetherEnhanced.NETHERENHANCED_TAB)));
 
     public static void Register() { }
 
     public enum ModItemTier implements IItemTier
     {
-        LAVA_STEEL(3, 1000, 15, 1.5f, 20,
+        LAVA_STEEL(4, 1000, 15, 1.5f, 20,
                 Ingredient.fromStacks(new ItemStack(ModItems.LAVA_STEEL_INGOT.get())));
 
         private final int harvestLevel;
